@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "appsyncdemo",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authappsyncdemo104d651b104d651b"
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    }
+  }
+}
